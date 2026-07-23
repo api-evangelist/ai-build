@@ -1,12 +1,32 @@
 aid: ai-build
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ai-build.png
 name: AI Build
-description: AI Build is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AI Build (Aibuild) is a London and Silicon Valley based software company,
+  founded in 2015, that is transforming additive manufacturing with agentic AI. Its
+  flagship Aibuild OS is an autonomous engineering platform whose computer-use AI operates
+  CAD, CAE, and CAM software the way a human engineer would, carrying work from design
+  intent through to manufacturing-ready output. Aibuild CAM provides toolpathing for
+  large-format and robotic 3D printing, CNC machining, mould design, and analysis,
+  while Aibuild FETS delivers finite element thermomechanical simulation. The company
+  is a portfolio company of Seedcamp and SuperSeed and appears in the API Evangelist
+  network as a company profile; it currently publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/ai-build/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
+- superseed
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
@@ -14,6 +34,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Additive Manufacturing
+- 3D Printing
+- Artificial Intelligence
+- Manufacturing
+- Robotics
+- CAD
+- CAM
+- Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ai-build-domain-security.yml
 - type: Website
-  url: http://ai-build.com
+  url: https://ai-build.com
+- type: About
+  url: https://ai-build.com/company/
+- type: Pricing
+  url: https://ai-build.com/aibuild-os-pricing/
+- type: Blog
+  url: https://ai-build.com/type/blog/
+- type: Support
+  url: https://ai-build.com/contact-us/
+- type: TermsOfService
+  url: https://ai-build.com/aibuild-website-terms-of-use/
+- type: PrivacyPolicy
+  url: https://ai-build.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ai-build/
+- type: Twitter
+  url: https://twitter.com/ai_build
+- type: YouTube
+  url: https://www.youtube.com/channel/UCDPXj-ulWvZnVwQNVVfq2_Q
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
