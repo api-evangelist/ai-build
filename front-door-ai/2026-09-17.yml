@@ -1,0 +1,35 @@
+# Front Door AI Index — ai-build — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ai-build
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ai-build.com
+  final_host: ai-build.com
+  ownership: own
+  owner: ai-build
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 62
+  host_score: 62
+  density: 26.68
+  words: 2324
+  tiers:
+    agentic: 29
+    core: 33
+    model: 0
+  ambiguous: 10
+  top_terms:
+    AI: 32
+    agentic: 14
+    agent: 6
+    copilot: 6
+    AI agent: 4
+    prompts: 4
+    intelligence: 2
+    AI assistant: 1
+    artificial intelligence: 1
+    automation: 1
+    smart: 1
