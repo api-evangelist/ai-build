@@ -1,0 +1,58 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://ai-build.com/aibuild-os-pricing/
+sources:
+- https://ai-build.com/aibuild-os-pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: On-premise deployment
+  managed_tier: STARTER
+published: true
+note: Monthly/Yearly toggle with 'Save 16%' on yearly; yearly prices not shown in text. Enterprise offers
+  on-premise deployment.
+plan_count: 5
+currency: USD
+plans:
+- name: FREE
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 5 credits
+  overage: Additional credits can be purchased on demand
+- name: STARTER
+  price_text: $20 / month
+  price: 20
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 20 credits / month
+  overage: Additional credits can be purchased on demand
+- name: BUSINESS
+  price_text: $100 / month
+  price: 100
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 400 credits / month (credit tiers from 100 to 30,000 credits)
+  overage: Additional credits can be purchased on demand
+- name: ENTERPRISE
+  price_text: Custom
+  period: none
+  included_quota: Custom credit volume, on-premise deployment
+- name: Add-on Aibuild CAM
+  price_text: Contact sales
+  period: none
+rate_limit_statements:
+- 1 credit can complete up to 5 images or 1 3D model or 1 small agentic execution task
+- Monthly plan credits reset at the start of each billing cycle and do not roll over
