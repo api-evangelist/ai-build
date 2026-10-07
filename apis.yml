@@ -63,6 +63,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/ai-build-plans-pricing.yml
 - url: https://ai-build.com/type/news/
   type: Blog
 - url: https://ai-build.com/type/news/feed/
